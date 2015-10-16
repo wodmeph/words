@@ -1,0 +1,215 @@
+<html>
+<head>
+<script>
+var English = [];
+var Russian = [];
+var activeindex;
+var engarrcount;
+    
+English.push("there are many big and small libraries in our country");
+Russian.push("В нашей стране много больших и маленьких библиотек");
+English.push("every school has a library");
+Russian.push("Каждая школа имеет библиотеку");
+English.push("go tell all your friends that this is the end");
+Russian.push("Иди скажи всем своим друзьям, что это конец");
+English.push("his eyes are locked on her");
+Russian.push("Его взгляд прикован к ней");
+English.push("we're all addicted to the most abusive and destructive drug of all time");
+Russian.push("Мы все зависим от самого унизительного и деструктивного наркотика всех времён");
+English.push("there is no way back");
+Russian.push("Пути назад нет");
+English.push("keep them in thrall, it’s time to smite and ignite");
+Russian.push("Держи их в повиновении, настало время карать и поджигать");
+English.push("I've been hiding here for a thousand years");
+Russian.push("Я прятался здесь тысячи лет");
+English.push("we shall meet at hell's gate");
+Russian.push("Мы встретимся у ворот ада");
+English.push("blood fills your palms");
+Russian.push("Кровь наполняет твои ладони");
+English.push("where's your respect?");
+Russian.push("Где твоё уважение?");
+English.push("surrender is the only option");
+Russian.push("Сдаться это единственный вариант");
+English.push("we begin to learn to smile again");
+Russian.push("Мы начинаем вновь учиться улыбаться");
+English.push("snap back to reality");
+Russian.push("Возвращаемся к реальности");
+English.push("we're part of the last garrison");
+Russian.push("Мы часть последнего гарнизона");
+English.push("I wanna lie here and soak up the sun");
+Russian.push("Я хочу лежать здесь и впитывать солнце");
+English.push("the red capes are coming");
+Russian.push("Красные плащи идут");
+English.push("sorry you're not a winner");
+Russian.push("Прости, ты не победитель");
+English.push("there is a way to save us all");
+Russian.push("Существует способ спасти нас всех");
+English.push("the big clock on the tower of the Palace of Westminster in London is often called Big Ben");
+Russian.push("Большие часы на башне Вестминстерского дворца в Лондоне часто называют Биг Беном");
+English.push("Bob and Rose are English children");
+Russian.push("Боб и Роза - английские дети");
+English.push("Rose is a very good pupil");
+Russian.push("Роза очень хорошая ученица");
+English.push("Rose reads a lot of books");
+Russian.push("Роза читает много книг");
+English.push("Rose always helps her mother at home");
+Russian.push("Роза всегда помогает маме по дому");
+English.push("Bob is a lazy boy");
+Russian.push("Боб ленивый мальчишка");
+English.push("can you tell us what women wear?");
+Russian.push("Ты можешь рассказать нам, что носят женщины?");
+English.push("I am not such a fool to believe him");
+Russian.push("Я не такой дурак, чтобы поверить ему");
+English.push("I never knew she had so few friends");
+Russian.push("Я никогда не знал, что у нее так мало друзей");
+English.push("my brother visits us so rarely");
+Russian.push("Мой брат так редко навещает нас");
+English.push("he lives so far from me");
+Russian.push("Он живет так далеко от меня");
+English.push("I was so tired that I went to bed at 7 o’clock");
+Russian.push("Я так устал, поэтому лег в 7 часов");
+English.push("it was such a good book that I couldn’t put it down");
+Russian.push("Книга была настолько интересная, что я не мог от нее оторваться");
+English.push("I expected the weather to be much warmer");
+Russian.push("Я ждал, что будет теплее");
+English.push("I was also glad to see you");
+Russian.push("Я тоже была рада тебя видеть");
+English.push("is she also guilty of murdering?");
+Russian.push("Она тоже виновата в убийстве?");
+English.push("I’m going to the restaurant as well");
+Russian.push("Я тоже иду в ресторан");
+English.push("my sister is a doctor and our parents were doctors as well");
+Russian.push("Моя сестра – врач, и наши родители тоже были врачами");
+English.push("she hasn’t heard me either");
+Russian.push("Она тоже меня не услышала");
+English.push("my mother doesn’t speak English");
+Russian.push("Моя мама не говорит по-английски");
+English.push("you are either with us or against us");
+Russian.push("Ты или с нами, или против нас");
+English.push("you either forgot or didn’t know");
+Russian.push("Ты или забыл, или не знал");
+English.push("I have neither brothers, nor sisters");
+Russian.push("У меня нет ни братьев, ни сестер");
+English.push("his story was a downright lie");
+Russian.push("Его история была наглой ложью");
+English.push("have you ever cheated in an exam?");
+Russian.push("Ты когда-нибудь жульничал на экзамене?");
+English.push("it wasn’t that expensive");
+Russian.push("Не так уж дорого оно стоило");
+English.push("I’m stuck in traffic");
+Russian.push("Я застрял в пробке");
+English.push("I’ve got a headache");
+Russian.push("У меня болит голова");
+English.push("I am not mad at you");
+Russian.push("Я не злюсь на тебя");
+English.push("I hate making this stupid mistake");
+Russian.push("Ненавижу делать эту глупую ошибку");
+English.push("what a stupid dress");
+Russian.push("Какое дурацкое платье");
+English.push("my girlfriend gets upset over silly things");
+Russian.push("Моя девушка расстраивается по пустякам");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+English.push("");
+Russian.push("");
+
+    
+    
+window.onload = function() { Gen(true); }
+function Gen(generatenew)
+{
+    document.getElementById('retry').style.display = 'inline-block';
+    document.getElementById('tempresult').innerHTML="";
+    document.getElementById('wordbuttons').innerHTML="";
+    document.getElementById('finaldialog').innerHTML="";
+    if(generatenew)activeindex = Rand(English.length);
+    document.getElementById('translate').innerHTML=Russian[activeindex];
+    var engarr = English[activeindex].split(" ");
+    engarrcount = engarr.length;
+    while (engarr.length>0)
+    {
+        var temp = Rand(engarr.length);
+        document.getElementById('wordbuttons').innerHTML+="<div class=\"wordbutton\" onClick=rere(this)>"+engarr[temp]+"<div>";
+        engarr.splice(temp,1);
+    }
+}
+
+function Rand(max) {
+    return Math.floor(Math.random() * max);
+}
+
+function rere(x)
+{
+    document.getElementById('tempresult').innerHTML+=x.textContent+" ";
+    x.style.display='none';
+    engarrcount--;
+    
+    if(engarrcount<=0)
+    { 
+        document.getElementById('retry').style.display = 'none';             
+        if(document.getElementById('tempresult').innerHTML.slice(0,-1)==English[activeindex]) 
+           {
+              document.getElementById('finaldialog').innerHTML="Правильно! <div class=\"wordbutton\" onClick=\"Gen(true)\">Продолжить<div>";        
+           }
+                          else
+    {
+      document.getElementById('finaldialog').innerHTML="Неправильно! <div class=\"wordbutton\" onClick=\"Gen(false)\">Заново</div><div class=\"wordbutton\" onClick=\"Gen(true)\">Дальше</div>";
+    }
+    }                     
+}
+</script>
+<style>
+#tempresult{
+    display: inline-block;
+}
+.wordbutton{
+    border: 1px inset salmon;
+    display: inline-block;
+    background-color: mistyrose;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+body {
+    font-size: 25px;
+    background-color: snow;
+    color: darkred;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#translate{
+    display: inline-block;
+    margin: 6px;
+    padding: 5px;
+}
+#zz,#finaldialog{
+    margin: 0px 6px 0px;
+    padding: 0px 5px 0px;
+}
+</style>
+</head>
+<body>
+<div id="translate"></div><div id="retry" class="wordbutton" onClick="Gen(false)">Начать сначала</div>
+<div id="zz">Предложение: <div id="tempresult"></div></div>
+<div id="wordbuttons"></div>
+<div id="finaldialog"></div>
+</body>
+</html>
